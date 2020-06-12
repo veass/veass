@@ -1,0 +1,10 @@
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+
+    {
+  "editor.codeActionsOnSave": {
+  "source.fixAll": true
+}
+}
