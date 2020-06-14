@@ -1,18 +1,40 @@
 <template>
-  <div class="nav-bar">
-    <nav>
-      <ul>
-        <li>
-          <p>
-            {{ item1 }}
-          </p>
-        </li>
-      </ul>
-    </nav>
-  </div>
-</template>
+  <section class="nav-bar">
+    <div>
+      <b-navbar type="dark">
+        <b-navbar-brand href="#">
+          Veass
+        </b-navbar-brand>
+
+        <b-navbar-toggle target="nav-collapse" />
+
+        <b-collapse
+          id="nav-collapse"
+          is-nav
+        >
+          <!-- Right aligned nav items -->
+          <b-navbar-nav class="ml-auto">
+            <b-nav-item href="#" disabled>
+              Technology
+            </b-nav-item>
+            <b-nav-item href="#" disabled>
+              Portfolio
+            </b-nav-item>
+            <b-nav-item href="#" disabled>
+              something3
+            </b-nav-item>
+            <b-nav-item href="#" disabled>
+              something4
+            </b-nav-item>
+          </b-navbar-nav>
+        </b-collapse>
+      </b-navbar>
+    </div>
+  </section>
+</template> 
 
 <script>
+
 import axios from 'axios'
 
 export default {
@@ -40,7 +62,6 @@ export default {
     text-decoration: none
   .nav-bar
     position: fixed
-    height: 63px
     width: 100%
     background-color: #21201F
     z-index: 100

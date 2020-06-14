@@ -5,7 +5,13 @@ module.exports = {
   ],
   rules: {
     //  'vue/mustache-interpolation-spacing': [2, 'always'],
-    //  'vue/max-attributes-per-line': 'off',
-    //  'vue/attributes-order': 0,
+     'vue/max-attributes-per-line': ["warn", {
+      "singleline": 3,
+      "multiline": {
+        "max": 3,
+        "allowFirstLine": true
+      }
+    }],
+     'vue/attributes-order': 0
   }
 }
