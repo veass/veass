@@ -1,7 +1,7 @@
 <template>
-  <section class="main-footer">
+  <footer class="main-footer">
     <div class="mainblock" />
-  </section>
+  </footer>
 </template>
 
 <script>
@@ -17,7 +17,6 @@ export default {
   display: flex
   flex-direction: row
 .main-footer
-  position: absolute
   height: auto
   background-color: #404040
   width: 100%

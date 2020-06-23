@@ -1,5 +1,5 @@
 <template>
-  <section class="nav-bar">
+  <header class="nav-bar">
     <div>
       <b-navbar type="dark">
         <b-navbar-brand href="#">
@@ -30,7 +30,7 @@
         </b-collapse>
       </b-navbar>
     </div>
-  </section>
+  </header>
 </template> 
 
 <script>
