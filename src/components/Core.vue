@@ -12,27 +12,20 @@
         </div>
       </div>
     </div>
-    <technology />  
-    <portfolio />  
   </section>
 </template>
 
 <script>
-import Technology from '../components/Technology'
-import Portfolio from '../components/Portfolio'
+
 
 export default {
-  
   name: 'MainCore',
-  components: {
-    Technology,
-    Portfolio
-  }
+  
 }
 </script>
 
 <style lang="sass">
-@import "styles.sass";
+@import "styles.sass"
 #main-core 
   width: 100%
   height: 100vh

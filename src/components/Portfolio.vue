@@ -10,6 +10,7 @@ export default {
 </script>
 
 <style lang="sass" scoped>
-
+#portfolio
+  
 
 </style>

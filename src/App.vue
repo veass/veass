@@ -1,7 +1,9 @@
 <template>
   <div id="app">
     <nav-bar />
-    <router-view />
+    <core />
+    <technology />
+    <portfolio />
     <main-footer />
   </div>
 </template>
@@ -9,6 +11,10 @@
 <script>
 import NavBar from './components/NavBar'
 import MainFooter from './components/Footer'
+import Core from './components/Core'
+import Technology from './components/Technology'
+import Portfolio from './components/Portfolio'
+
 import Vue from 'vue'
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 import 'bootstrap/dist/css/bootstrap.css'
@@ -22,6 +28,9 @@ export default {
   components: {
     NavBar,
     MainFooter,
+    Core,
+    Technology,
+    Portfolio
 
   }
 }
@@ -35,7 +44,6 @@ export default {
   text-align: center
   color: #2c3e50
 
-body
-  line-height: 1 //переписать
+
 
 </style>
