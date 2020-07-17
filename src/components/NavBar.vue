@@ -44,14 +44,14 @@ export default {
       item1: 'hello'
     }
   },
-  created(){
-   console.log('xer');
-   axios.get('https://veasweb.ru/wp-json')
-   .then(response => {
-     this.item1 = response.data.name;
-    // console.log(response.data.name)
-   })
-  }
+  // created(){
+  // console.log('xer');
+  //  axios.get('https://veasweb.ru/wp-json')
+  //  .then(response => {
+  //    this.item1 = response.data.name;
+  //   // console.log(response.data.name)
+  //  })
+  // }
 }
 </script>
 

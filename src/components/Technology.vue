@@ -1,16 +1,21 @@
 <template>
   <section id="technology">
     <div class="fixable-technology">
-      <div class="fixable-technology-content" />
+      <div class="fixable-technology-content">
+        <histogramm />
+      </div>
     </div>
   </section>
 </template>
 
 <script>
+import Histogramm from './child/histogramm'
 export default {
-  name: 'Technology',
- 
-  }
+  name: 'Technology', 
+  components: {
+    Histogramm
+  },
+}
 </script>
 
 <style lang="sass" scoped>
